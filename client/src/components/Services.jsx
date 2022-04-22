@@ -1,9 +1,9 @@
 const Services = () => {
-  return (
-    <>
-      Services
-    </>
-  )
-}
-
-export default Services
+    return (
+      <>
+        Services
+      </>
+    )
+  }
+  
+  export default Services

@@ -1,20 +1,18 @@
-import './App.css';
-import React from 'react';
-import { Navbar, Welcome,  Footer, Services, Transactions} from './components';
-
+import './App.css'
+import { Navbar, Welcome, Footer, Services, Transactions } from "./components/index.js";
 const App = () => {
-  
+
   return (
-      <div className='min-h-screen'>
-        <div className='gradient-bg-welcome'>
-          <Navbar />
-          <Welcome />
-        </div>
+    <div className="min-h-screen">
+      <div className="gradient-bg-welcome">
+        <Navbar />
+        <Welcome />
+      </div>
         <Services />
         <Transactions />
         <Footer />
-      </div>
+    </div>
   )
 }
 
-export default App
+export default App;

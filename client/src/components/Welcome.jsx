@@ -1,9 +1,9 @@
 const Welcome = () => {
-  return (
-    <>
-      Welcome
-    </>
-  )
-}
-
-export default Welcome
+    return (
+      <>
+        Welcome
+      </>
+    )
+  }
+  
+  export default Welcome
