@@ -1,7 +1,7 @@
 const Loader = () => {
     return (
       <>
-        Loader
+        <h1>Loader</h1>
       </>
     )
   }
